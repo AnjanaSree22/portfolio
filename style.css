@@ -1,0 +1,276 @@
+*{
+    font-family: 'ubuntu',sans-serif;
+    background-color: rgb(226, 239, 243)
+}
+body{
+    margin:0;
+    padding:0;
+}
+nav .navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+nav .menu{
+    display: flex;
+}
+a{
+    
+    text-decoration: none;
+}
+nav .menu li{
+    list-style-type: none;
+    margin:10px;
+    
+}
+nav .media a{
+    margin: 10px;
+    color: rgb(59, 120, 205);
+}
+nav .navbar .title a{
+    font-size: 35px;
+    font-weight: 550px;
+    color: rgb(59, 120, 205)
+}
+
+nav .navbar .menu a{
+    color: black;
+    font-weight: 550px;
+    font-size: 20px;
+}
+.home-page{
+    height: 100vh;
+    width: 100%;
+}
+.home-page .intro{
+    width: 50%; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    
+}
+.hello{
+    font-size: 25px;
+}
+.name{
+    font-size: 80px;
+    font-weight: bold;
+}
+.designation{
+    font-size: 40px;
+    color: rgb(59, 120, 205);
+}
+.place{
+    font-size: 25px;
+}
+.hireme-button{
+    padding-top: 20px;
+}
+.btn{
+    width: 120px;
+    height: 50px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(59, 120, 205);
+    color: white;
+    border: none;
+}
+.first_page{
+    width: 90%;
+    display: flex;
+    
+}
+.me{
+    margin-top: 70px;
+    width: 30%; 
+    height: 30%;
+}
+.about{
+    height:70vh;
+    width: 100%;
+}
+.page2{
+    width: 90%;
+    display: flex;  
+    
+}
+.me2{
+    margin-left: 150px;
+    width: 30%px;
+    height: 70%;
+}
+.aboutMe{
+    font-size: 20px;
+    width:90%;
+    height: 60%;
+}
+.heading3{
+    font-size:40px;
+    font-weight: lighter;
+}
+.dl_cv{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(59, 120, 205);
+    color: white;
+    border: none;
+}
+.skills{
+    height:100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.heading2{
+    top:0;
+    text-align:center;
+    font-size: 30px;
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+.years{
+   display: flex; 
+   gap:30px;
+}
+.exp{
+    width:100px;
+    font-size: 25px;
+    
+}
+.numb{
+    font-size: 40px;
+    font-weight: bold;
+}
+.skillSec{
+    display: flex;
+    gap: 20px;
+
+    
+}
+.aboutSkills{
+    width: 50%;
+    margin: 70px;
+    height: 70%;
+}
+.boxes{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.know{
+    font-size: 30px;
+    font-weight: bold;
+}
+.parah{
+    font-size: 18px;
+}
+.box{
+    width:50%;
+}
+.topic{
+    color: rgb(59, 120, 205);
+    font-size: 25px;
+}
+.per{
+    color: rgb(59, 120, 205);
+    padding:15px;
+    font-size: 50px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.services{
+    
+    width:80%;
+    height: 100vh;
+    margin: 0 130px;
+}
+.boxes2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box2{
+    margin: 20px 0px;
+    width: calc(100% / 3 - 80px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor: default;
+    height: 10%;
+   
+}
+.exp{
+    text-align: center;
+    display: flex;
+    width:90%;
+    font-size: 18px;
+    margin: 20px;
+}
+.icon{
+    color: rgb(59, 120, 205);
+}
+.topic{
+    color: black;
+}
+.contact{
+    width: 100%;
+    height: 80vh;
+ 
+}
+.contact h1{
+    
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    
+}
+.contact h2{
+    text-align: center;
+    font-weight: lighter;
+}
+.contact p{
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.proj{
+    width: 80%;
+    text-align: center;
+     margin: auto;
+}
+.finalpage{
+    display: flex;
+    flex-direction: column;
+}
+.contact .proje{
+    
+    text-align: center;
+    margin: 20px 20px;
+
+}
+.chat{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(59, 120, 205);
+    color: white;
+    border: none;
+}
